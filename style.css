@@ -488,4 +488,20 @@ hr{
     .work .layer{
         bottom:0;
     }
+
+    .work{
+        padding:9rem;
+    }
+
+    .work img{
+        display:none;
+    }
+
+    .sub-title{
+        font-size:2rem;
+    }
+
+    #services{
+        padding:0;
+    }
 }
