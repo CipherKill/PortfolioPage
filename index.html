@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Alan's Sandbox</title>
+</head>
+<body>
+    <section id="body-background">
+        <div class="container">
+            <nav id="navbar-area">
+                <p>Alan's Sandbox<p>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-close menu-icon" id="mclose-btn" aria-hidden="true"></i>
+                </ul>
+                <i class="fa fa-bars menu-icon" id="mopen-btn" aria-hidden="true"></i>
+            </nav>
+            <section class="main-text">
+                <p>Web Developer</p>
+                <h1>Hi, I am your friendly<br>neighbourhood coderman.</h1>
+                <div class="col-right">
+                    <a href="./resume/Alan_Raju_Resume.pdf" download class="cv-btn uptop">Download Resume</a>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <image src="./images/myphoto.jpeg" alt="My Personal Photo">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi there! I'm Alan, a passionate and detail-oriented web developer with a love for creating immersive and user-friendly digital experiences. Have honed my skills in HTML, CSS, and JavaScript, and have a solid understanding of responsive web design principles.</p><br>
+                    <p>I thrive on turning ideas into tangible and visually appealing websites. Whether it's crafting intuitive user interfaces, optimizing website performance, or ensuring cross-browser compatibility, I enjoy every aspect of the development process. I believe that great web experiences are a combination of functionality, aesthetics, and seamless usability.</p>
+                    
+                    <div class="skill-titles">
+                        <!-- <p class="skill-link active-link" data-content="skills">Skills</p> -->
+                        <p class="skill-link active-link" data-content="experience">Experience</p>
+                        <p class="skill-link" data-content="education">Education</p>
+                    </div>
+                    
+                    <!-- <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Create UI which would give users a great experience when using the webpage.</li>
+                            <li><span>Web Development</span><br>Develop efficient web-applications to solve real world problems.</li>
+                            <li><span>Scripting</span><br>Increase efficiency by creating scripts using python, bash...etc to automate manual tasks.</li>
+                        </ul>
+                    </div> -->
+
+                    <div class="tab-contents active-tab" id="experience">
+                        <ul>
+                            <li><span>Programmer Analyst</span><br>Designed and implemented scripts using bash and python to facilitate efficient an workflow.</li>
+                            <li><span>Programmer Analyst Trainee</span><br>Coached my peers in HTML, CSS, JS, ReactJS, NodeJS.</li>
+                            <li><span>YouTube</span><br>Created a youtube channel related to Web-Development and cybersecurity.<li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Amrita Vishwa Vidhyapeetham, Bangalore</span><br>B.Tech, Electronics and Communications Engineering.</li>
+                            <li><span>Shinning Star International School, Abu Dhabi</span><br>Senior Secondary School</li>
+                            <li><span>Abu Dhabi Indian School, Abu Dhabi</span><br>Secondary School</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa fa-eye service-icon" aria-hidden="true"></i>
+                    <h2>Front End Development</h2>
+                    <p>Creating friendly UI using HTML, CSS, JS and ReactJS with a keep it simple approch.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa fa-server service-icon" aria-hidden="true"></i>
+                    <h2>Back End Development</h2>
+                    <p>Building efficient backend using NodeJS, PHP to harmonize with the front-end.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa fa-wordpress service-icon"></i>
+                    <h2>Wordpress</h2>
+                    <p>Developing wordpress powered websites with both front-end and back-end using Wordpress Theme development and Wordpress REST API</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa fa-code service-icon" aria-hidden="true"></i>
+                    <h2>Scripting</h2>
+                    <p>Increase efficiency by building scripts with Python and Bash to automate manual tasks.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Creations</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/bookthebook.png" alt="Could not load image">
+                    <div class="layer">
+                        <h3>BOOKTheBOOK</h3>
+                        <p>Created a full stack webapp using the MERN stack. This is a bookstore where users can login, register, save books features are implemented.</p>
+                        <a  target="_blank" href="https://github.com/CipherKill/BOOKtheBOOK-MERN"><i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/matrixmatter.png" alt="Could not load image">
+                    <div class="layer">
+                        <h3>matrixmatter.com</h3>
+                        <p>Leveraged wordpress to build a health & fitness blog. Which was hosted online using bluehost for web-domain and web-server.</p>
+                        <a  target="_blank" href="https://web.archive.org/web/20220921094925/https://matrixmatter.com/"><i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/proxima.png" alt="Could not load image">
+                    <div class="layer">
+                        <h3>Proxima Books</h3>
+                        <p>A mordern state of the art front-end page that was created using ReactJS.</p>
+                        <a  target="_blank" href="https://github.com/CipherKill/Bookstore-react-project"><i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/CipherKill?tab=repositories" class="btn">See More</a>
+    </section>
+
+    <hr>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p class="personal-info"><i class="fa fa-envelope icon"></i>alanraju99@gmail.com</p>
+                    <p class="personal-info"><i class="fa fa-phone icon"></i>+91 76 1911 6878</p>
+                    <div class="social-icons-container">
+                        <a href="https://github.com/CipherKill"><i class="fa fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/i-am-alanraju/"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://www.youtube.com/@reptilianpride7520"><i class="fa fa-youtube-play"></i></a>
+                    </div>
+                </div>
+                <div class="col-right">
+                    <a href="./resume/Alan_Raju_Resume.pdf" download class="cv-btn" download>Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
