@@ -217,6 +217,8 @@ body{
     border-radius:1rem;
     position:relative;
     overflow:hidden;
+    height:15rem;
+    margin-bottom:1.5rem;
 }
 
 .work img{
@@ -271,6 +273,7 @@ body{
 .work:hover .layer{
     bottom:0;
 }
+
 
 .btn{
     display:block;
@@ -491,6 +494,7 @@ hr{
 
     .work{
         padding:9rem;
+        height:auto;
     }
 
     .work img{
