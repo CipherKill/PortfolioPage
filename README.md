@@ -1,2 +1,2 @@
 # Alan's Portfolio Page #
-Page Preview: [Click here](https://htmlpreview.github.io/?https://github.com/CipherKill/PortfolioPage/blob/main/index.html)
+Page Preview: [Click here](https://cipherkill.github.io/AlansPortfolioPage/)
